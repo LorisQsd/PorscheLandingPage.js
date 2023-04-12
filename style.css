@@ -298,7 +298,13 @@ h2 {
 }
 
 @media (width < 600px) {
-
+  body {
+    cursor: default;
+  }
+  .custom-cursor{
+    display: none;
+  }
+  
   .right,
   .left {
     flex-direction: column;
